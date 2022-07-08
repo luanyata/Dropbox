@@ -1,5 +1,7 @@
+import { Card } from './components/Card'
+
 function App() {
-  return <div>Dropbox</div>
+  return <Card />
 }
 
 export default App
