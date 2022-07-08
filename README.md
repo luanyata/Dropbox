@@ -17,3 +17,11 @@ Dropbox Redesign
     <img alt="Stargazers" src="https://img.shields.io/github/stars/luanyata/Dropbox?style=social">
   </a>
 </p>
+
+---
+## Descrição
+
+ Releitura da interface do Dropbox na visão do [Itai Bracha](https://www.figma.com/@itaibracha).
+
+
+Figma: https://www.figma.com/community/file/1126792861965409028
