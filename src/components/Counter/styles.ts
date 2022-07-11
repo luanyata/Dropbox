@@ -1,6 +1,6 @@
 import styled from 'styled-components'
 
-export const Container = styled.p`
+export const CounterContainer = styled.p`
   width: 4.883rem;
   height: 2.25rem;
   color: ${(props) => props.theme.colors.blue500};
