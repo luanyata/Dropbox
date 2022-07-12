@@ -1,4 +1,5 @@
 import styled, { css } from 'styled-components'
+import WaveIcon from '../../assets/wave.svg'
 
 type MenuItemProps = {
   isSelected: boolean
@@ -9,7 +10,7 @@ export const MenuItemContainer = styled.div<MenuItemProps>`
   width: 100%;
   align-items: center;
 
-  + div {
+  + div:not(:last-child) {
     margin-top: 3.5rem;
   }
 
@@ -17,10 +18,9 @@ export const MenuItemContainer = styled.div<MenuItemProps>`
     isSelected &&
     css`
       ::before {
-        content: '';
+        content: url(${WaveIcon});
         width: 11px;
         height: 37px;
-        background-color: ${({ theme }) => theme.colors.blue500};
       }
     `}
 `
