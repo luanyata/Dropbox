@@ -2,7 +2,7 @@ import styled from 'styled-components'
 import { FaFolder } from 'react-icons/fa'
 import { BsThreeDotsVertical } from 'react-icons/bs'
 
-export const Container = styled.div`
+export const CardContainer = styled.div`
   display: flex;
   flex-direction: column;
   width: 20.781rem;

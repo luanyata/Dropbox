@@ -1,7 +1,7 @@
 import { Title } from '../Title'
 import { LastUpdate } from '../LastUpdate'
 import {
-  Container,
+  CardContainer,
   Content,
   FolderIcon,
   Header,
@@ -13,7 +13,7 @@ import { Counter } from '../Counter'
 
 export function Card() {
   return (
-    <Container>
+    <CardContainer>
       <Header>
         <FolderIcon />
         <Info>
@@ -32,6 +32,6 @@ export function Card() {
           <Counter value={3985} />
         </div>
       </Content>
-    </Container>
+    </CardContainer>
   )
 }
