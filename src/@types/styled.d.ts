@@ -19,6 +19,7 @@ declare module 'styled-components' {
       gray300: string
       gray400: string
       gray500: string
+      gray600: string
     }
   }
 }
