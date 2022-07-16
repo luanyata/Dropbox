@@ -8,20 +8,6 @@ export const UpgradePlainContainer = styled.div`
   border-radius: 20px;
   margin: auto auto 35px auto;
 `
-export const UpgradeButton = styled.button`
-  width: 8.813rem;
-  height: 2.5rem;
-  padding: 10px 20px;
-  border: none;
-  border-radius: 8px;
-  background: ${({ theme }) => theme.colors.blue500};
-
-  color: ${({ theme }) => theme.colors.white};
-  font-size: 0.875rem;
-  line-height: 20px;
-  text-align: center;
-  font-weight: 700;
-`
 
 export const InUseSpacerPercentage = styled.p`
   font-size: 1rem;

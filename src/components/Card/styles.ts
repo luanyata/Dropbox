@@ -5,8 +5,8 @@ import { BsThreeDotsVertical } from 'react-icons/bs'
 export const CardContainer = styled.div`
   display: flex;
   flex-direction: column;
-  width: 20.781rem;
-  height: 12.25rem;
+  width: 332.5px;
+  height: 196px;
   background: ${(props) => props.theme.colors.white};
   border-radius: 20px;
   box-shadow: 0px 2px 30px rgba(0, 0, 0, 0.06);
