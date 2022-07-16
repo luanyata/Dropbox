@@ -3,6 +3,7 @@ import { Card } from './components/Card'
 import { Category } from './components/Category'
 import { Header } from './components/Header'
 import { Sidebar } from './components/Sidebar'
+import { Table } from './components/Table'
 import {
   AppContainer,
   AppContent,
@@ -42,6 +43,8 @@ function App() {
         </FilesContainer>
 
         <Category title="Recent Files" />
+
+        <Table />
       </AppContent>
     </AppContainer>
   )
