@@ -1,12 +1,18 @@
 import { Card } from './components/Card'
+import Header from './components/Header'
 import { Sidebar } from './components/Sidebar'
-import { AppContainer } from './styles'
+import { AppContainer, AppContent } from './styles'
 
 function App() {
   return (
     <AppContainer>
       <Sidebar />
-      <Card />
+      <AppContent>
+        <Header />
+        <Card />
+        <Card />
+        <Card />
+      </AppContent>
     </AppContainer>
   )
 }

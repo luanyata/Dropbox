@@ -6,3 +6,9 @@ export const AppContainer = styled.div`
   height: 100vh;
   display: flex;
 `
+
+export const AppContent = styled.div`
+  padding: 36px 64px 0;
+  width: 100%;
+  max-width: 1440px;
+`

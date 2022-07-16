@@ -16,6 +16,7 @@ const theme: DefaultTheme = {
     gray300: '#efefef',
     gray400: '#e5e5e5',
     gray500: '#667085',
+    gray600: '#757879',
   },
 }
 
