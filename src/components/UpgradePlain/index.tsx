@@ -1,9 +1,9 @@
 import { Line } from 'rc-progress'
 import filesImage from '../../assets/files.svg'
 import { theme } from '../../styles/theme'
+import { Button } from '../Button'
 import {
   UpgradePlainContainer,
-  UpgradeButton,
   InUseSpacerPercentage,
   InUseSpacerNumbers,
 } from './styles'
@@ -18,7 +18,11 @@ export function UpgradePlain() {
         <p>600Gb</p> <p>800gb</p>
       </InUseSpacerNumbers>
 
-      <UpgradeButton>Upgrade</UpgradeButton>
+      <Button
+        title="Upgrade"
+        bg={theme.colors.blue500}
+        color={theme.colors.white}
+      />
     </UpgradePlainContainer>
   )
 }
