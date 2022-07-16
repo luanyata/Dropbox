@@ -10,6 +10,7 @@ export const AppContainer = styled.div`
 export const AppContent = styled.div`
   padding: 36px 64px 0;
   width: 100%;
+  margin-left: 262px;
 `
 
 export const HeaderFilesContainer = styled.div`
