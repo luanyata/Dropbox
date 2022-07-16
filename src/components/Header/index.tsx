@@ -1,5 +1,13 @@
+import { Avatar } from '../Avatar'
 import { Input } from '../Input'
-import { HeaderContainer, HeaderTitle, WelCome } from './styles'
+import {
+  HeaderActionContainer,
+  HeaderContainer,
+  HeaderTitle,
+  WelCome,
+  NotificationIcon,
+  SettingsIcon,
+} from './styles'
 
 export default function Header() {
   return (
@@ -8,7 +16,12 @@ export default function Header() {
         <HeaderTitle>MyCloud</HeaderTitle>
         <WelCome>Welcome, Luan Lima! 👋</WelCome>
       </div>
-      <Input />
+      <HeaderActionContainer>
+        <Input />
+        <NotificationIcon />
+        <SettingsIcon />
+        <Avatar />
+      </HeaderActionContainer>
     </HeaderContainer>
   )
 }
